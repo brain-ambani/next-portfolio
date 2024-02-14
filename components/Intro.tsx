@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profilePic from "../public/rmtdev.png";
 
 export const Intro = () => {
   return (
@@ -6,7 +7,7 @@ export const Intro = () => {
       <div className="flex items-center justify-center">
         <div>
           <Image
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+            src={profilePic}
             alt="profile photo"
             width="192"
             height="192"
