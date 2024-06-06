@@ -2,7 +2,7 @@ import { projects } from "@/data";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 shadow-md">
       <h1 className="heading">
         A small selection of <span className="text-purple">my projects</span>
       </h1>
@@ -14,11 +14,11 @@ const Projects = () => {
           >
             <h1 className="text-lg font-semibold">{title}</h1>
             <img src={img} alt="project image" className="py-2 rounded-md" />
-            <p className=" text-gray-400">{des}</p>
+            <p className=" text-gray-400 mb-4">{des}</p>
             <div>
               <Link
                 href={link}
-                className="flex gap-4 mt-4 bg-purple-400 py-1 px-4 rounded-md over:bg-purple-300"
+                className=" font-semibold bg-slate-800 text-gray-400 py-2 px-6 text-xl rounded-md hover:bg-slate-400 hover:text-gray-600"
               >
                 View code
               </Link>
