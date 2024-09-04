@@ -6,8 +6,8 @@ export const Profile = () => {
     <div>
       <Image
         src={profilePic}
-        width={120}
-        height={120}
+        width={35}
+        height={35}
         alt="profile"
         className="rounded-full  "
       />

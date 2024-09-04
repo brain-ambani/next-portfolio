@@ -1,28 +1,19 @@
-import Link from "next/link";
-import { BsTwitterX } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { Profile } from "./profile";
-
 export const Hero = () => {
   return (
-    <div className="w-3/4 mx-auto py-8 h-full flex flex-col items-center">
-      <div className="flex flex-col items-center text-center space-y-3">
-        <Profile />
+    <div className="w-3/4 mx-auto  pt-16 h-full flex flex-col ">
+      <div className="flex flex-col  space-y-3">
+        <p className="text-cyan-500">Hi, my name is</p>
+        <h1 className="text-3xl font-semibold">Brain Ambani.</h1>
 
-        <h2 className="text-6xl font-semibold md:w-2/3 items-center">
+        <h2 className=" text-4xl md:text-5xl font-semibold  text-muted-foreground">
           Building interactive web solutions with precision and creativity.
         </h2>
-      </div>
-      <div className="flex gap-4 py-8">
-        <Link href="https://github.com/brain-ambani/" target="_blank">
-          <FaGithub size={35} className="text-black" />
-        </Link>
-        <Link href="https://www.linkedin.com/in/brain-ambani/" target="_blank">
-          <FaLinkedin size={35} className="text-blue-500" />
-        </Link>
-        <Link href="/" target="_blank">
-          <BsTwitterX size={35} className="text-black" />
-        </Link>
+        <p className="w-2/3">
+          I&apos;m a passionate Full-Stack Developer with two years of
+          experience in building robust and scalable web applications. My
+          expertise lies in creating seamless user experiences with cutting-edge
+          front-end technologies while ensuring efficient back-end processes.
+        </p>
       </div>
     </div>
   );
