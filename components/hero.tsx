@@ -5,11 +5,11 @@ import { Profile } from "./profile";
 
 export const Hero = () => {
   return (
-    <div className="w-3/4 mx-auto py-32 h-full flex flex-col items-center">
+    <div className="w-3/4 mx-auto py-8 h-full flex flex-col items-center">
       <div className="flex flex-col items-center text-center space-y-3">
         <Profile />
 
-        <h2 className="text-4xl font-semibold md:w-1/2 items-center leading-snug">
+        <h2 className="text-6xl font-semibold md:w-2/3 items-center">
           Building interactive web solutions with precision and creativity.
         </h2>
       </div>
