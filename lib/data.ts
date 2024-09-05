@@ -5,15 +5,15 @@ export const data = [
   },
   {
     id: 2,
-    name: "Nextjs",
+    name: "Typescript",
   },
   {
     id: 3,
-    name: "Nextjs",
+    name: "Node.js",
   },
   {
     id: 4,
-    name: "Nextjs",
+    name: "Express.js",
   },
   {
     id: 5,
@@ -21,15 +21,15 @@ export const data = [
   },
   {
     id: 6,
-    name: "Express.js",
+    name: "Reactjs",
   },
   {
     id: 7,
-    name: "Node.js",
+    name: "PostgreSQL",
   },
   {
     id: 8,
-    name: "Typescript",
+    name: "MongoDB",
   },
   {
     id: 9,
