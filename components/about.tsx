@@ -1,4 +1,5 @@
 import { data } from "@/lib/data";
+import { AboutDisplay } from "./about-display";
 
 export const About = () => {
   return (
@@ -6,9 +7,9 @@ export const About = () => {
       <div className=" text-3xl font-semibold pb-6">
         <h2 className="pb-2">About</h2> <hr className="w-12" />
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-8">
         <div>
-          <p>
+          <p className="text-sm">
             I am a software engineer who possesses a strong enthusiasm for
             crafting, constructing, and executing technological resolutions. I
             collaborate with individuals, startups, small businesses, and large
@@ -26,7 +27,9 @@ export const About = () => {
             ))}
           </ul>
         </div>
-        <div></div>
+        <div>
+          <AboutDisplay />
+        </div>
       </div>
     </div>
   );
