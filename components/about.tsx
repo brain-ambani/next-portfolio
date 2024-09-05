@@ -3,9 +3,10 @@ import { AboutDisplay } from "./about-display";
 
 export const About = () => {
   return (
-    <div className="w-3/4 mx-auto py-16 ">
+    <div className="w-3/4 mx-auto pt-16 ">
       <div className=" text-3xl font-semibold pb-6">
-        <h2 className="pb-2">About</h2> <hr className="w-12" />
+        <h2 className="pb-2 text-muted-foreground">About</h2>{" "}
+        <hr className="w-12 border-0 h-[1px] bg-cyan-400" />
       </div>
       <div className="grid grid-cols-2 gap-8">
         <div>

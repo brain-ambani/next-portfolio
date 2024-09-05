@@ -1,11 +1,10 @@
 import Image from "next/image";
-import profilePic from "../assets/profile.png";
 
 export const Profile = () => {
   return (
     <div>
       <Image
-        src={profilePic}
+        src="/assets/profile.png"
         width={35}
         height={35}
         alt="profile"

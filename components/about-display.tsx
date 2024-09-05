@@ -1,12 +1,11 @@
 import Image from "next/image";
-import profilePic from "../assets/profile.png";
 
 export const AboutDisplay = () => {
   return (
     <div className="ml-4 ">
       <div className="relative  ">
         <Image
-          src={profilePic}
+          src="/assets/profile.png"
           width={350}
           height={350}
           alt="about"
