@@ -1,3 +1,5 @@
+import { data } from "@/lib/data";
+
 export const About = () => {
   return (
     <div className="w-3/4 mx-auto py-16 ">
@@ -13,6 +15,16 @@ export const About = () => {
             corporate entities, aiding them in formulating a strategic framework
             for their online ventures.
           </p>
+          <br />
+          <p className="pb-4">Here are a few technologies I use:</p>
+          <ul className="grid grid-cols-2 gap-4">
+            {data.map((data, id) => (
+              <li key={id} className=" font-medium flex items-center space-x-2">
+                <span className="text-cyan-600 mr-2">&gt;</span>
+                {data.name}
+              </li>
+            ))}
+          </ul>
         </div>
         <div></div>
       </div>
