@@ -51,35 +51,33 @@ export const data = [
 
 export const projects = [
   {
-    title: "MonkResume",
+    index: "01",
+    title: "Scriptify",
     description:
-      "MonkResume is an advanced AI-powered resume builder designed to simplify the job application process. It offers users a range of professionally crafted templates and personalized suggestions to create tailored resumes. With its intuitive interface, users can generate compelling resumes that stand out, helping them navigate the competitive job market more effectively.",
-    image: "/assets/profile.png",
-    link: "https://www.google.com",
-    repo: "https://www.github.com",
+      "Scriptify is an innovative web app that allows users to interact with PDF documents in a conversational way. Through an AI-powered chat interface, users can ask questions, search for content, and extract information from PDFs seamlessly, enhancing productivity and accessibility.",
+    image: "/assets/scriptify.png",
+    link: "https://scriptify-one.vercel.app/",
+    repo: "https://github.com/brain-ambani/scriptify",
+    technologies: ["Next.js", "OpenAI API", "Clerk", "PostgreSQL"],
   },
   {
-    title: "AutoSelect Car Rental",
-    description:
-      "AutoSelect is a modern car rental platform providing a seamless user experience for browsing and booking vehicles. Featuring an extensive catalog of cars, it allows customers to easily check availability, compare options, and secure rentals online. The platform is optimized for ease of use, offering transparent pricing, real-time updates, and secure payment options for a stress-free rental experience.",
-    image: "/assets/profile.png",
-    link: "https://www.google.com",
-    repo: "https://www.github.com",
-  },
-  {
+    index: "02",
     title: "BlogAI",
     description:
       "BlogAI is an innovative AI-driven content creation tool designed to assist bloggers and businesses in producing high-quality, SEO-optimized articles. By analyzing user input and target audience preferences, BlogAI generates engaging, relevant content tailored to meet specific objectives. Its intelligent algorithms make it easier to maintain a consistent blogging schedule while ensuring that each post resonates with readers.",
-    image: "/assets/profile.png",
-    link: "https://www.google.com",
-    repo: "https://www.github.com",
+    image: "/assets/blogai.png",
+    link: "https://blog-app-67ff.vercel.app/",
+    repo: "https://github.com/brain-ambani/blog-app",
+    technologies: ["React.js", "Expressjs", "OpenAI API"],
   },
   {
-    title: "ShopEase",
+    index: "03",
+    title: "Workout Buddy",
     description:
-      "ShopEase is a fully integrated e-commerce platform that enhances the online shopping experience for both retailers and customers. With features like personalized product recommendations, secure payment processing, and a streamlined checkout process, ShopEase offers a smooth and efficient shopping journey. It also includes robust inventory management and real-time order tracking, making it a comprehensive solution for modern online stores.",
-    image: "/assets/profile.png",
-    link: "https://www.google.com",
-    repo: "https://www.github.com",
+      "Workout Buddy is a comprehensive fitness web app designed to help users achieve their health and fitness goals. Set fitness goals, monitor progress and stay motivated with custom workout routines. The app provides an intuitive interface and seamless experience for users looking to enhance their fitness journey.",
+    image: "/assets/fitness.png",
+    link: "https://fitness-app-lac.vercel.app/",
+    repo: "https://github.com/brain-ambani/fitness-app",
+    technologies: ["Next.js", "MongoDB", "Expressjs"],
   },
 ];

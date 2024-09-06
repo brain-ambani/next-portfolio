@@ -1,4 +1,4 @@
-// import { ProjectCard } from "./project-card";
+import { ProjectCard } from "./project-card";
 
 export const Projects = () => {
   return (
@@ -9,7 +9,9 @@ export const Projects = () => {
         </h2>
         <hr className="w-32 border-0 h-[1px] bg-cyan-400" />
       </div>
-      <div className="pt-8">{/* <ProjectCard /> */}</div>
+      <div className="">
+        <ProjectCard />
+      </div>
     </div>
   );
 };
