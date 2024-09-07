@@ -1,5 +1,5 @@
 import { projects } from "@/lib/data";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineLink } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
@@ -9,6 +9,7 @@ export const ProjectCard = () => {
     <div className="">
       <p className="text-cyan-400 font-light">Recent Projects</p>
       <ul>
+        return(
         {projects.map((project, index) => (
           <div key={index} className="py-12 sm:py-8 ">
             <li className="font-bold text-xl text-slate-50 py-2">
@@ -21,13 +22,13 @@ export const ProjectCard = () => {
                   {project.description}
                 </p>
 
-                <Image
+                <img
                   src={project.image}
                   width={550}
                   height={200}
                   alt="project img"
                   className="object-cover rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
-                ></Image>
+                />
               </div>
               <div className=" absolute sm:bottom-3 -bottom-16">
                 <div className=" sm:block my-2 text-xs sm:text-sm text-cyan-200 sm:pl-8">
@@ -63,6 +64,7 @@ export const ProjectCard = () => {
             </div>
           </div>
         ))}
+        )
       </ul>
     </div>
   );
