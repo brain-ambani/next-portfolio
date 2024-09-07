@@ -1,5 +1,5 @@
 import { projects } from "@/lib/data";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineLink } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
@@ -22,12 +22,12 @@ export const ProjectCard = () => {
                   {project.description}
                 </p>
 
-                <img
+                <Image
                   src={project.image}
                   width={550}
                   height={200}
                   alt="project img"
-                  className="object-cover rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
+                  className="object-cover w-[550px] h-[250px] rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
                 />
               </div>
               <div className=" absolute sm:bottom-3 -bottom-16">
