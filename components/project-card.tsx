@@ -10,14 +10,14 @@ export const ProjectCard = () => {
       <p className="text-cyan-400 font-light">Recent Projects</p>
       <ul>
         {projects.map((project, index) => (
-          <div key={index} className="py-8 ">
+          <div key={index} className="py-12 sm:py-8 ">
             <li className="font-bold text-xl text-slate-50 py-2">
               {project.index}. {project.title}
             </li>
 
             <div className="relative ">
-              <div className="relative flex items-center bg-[#0A122A] justify-end p-8 rounded-md">
-                <p className="absolute z-10 left-8 top-1/2 transform -translate-y-1/2 w-[50%] text-sm bg-[#00091d] p-2 rounded-md shadow-inner ">
+              <div className="relative flex items-center bg-[#0A122A] sm:justify-end sm:p-8 rounded-md">
+                <p className=" absolute z-10 left-8 text-sm  sm:top-1/2 sm:transform sm:-translate-y-1/2 sm:w-[50%]  sm:bg-[#00091d] p-2 rounded-md shadow-inner  ">
                   {project.description}
                 </p>
 
@@ -26,22 +26,22 @@ export const ProjectCard = () => {
                   width={550}
                   height={200}
                   alt="project img"
-                  className="object-cover rounded-md opacity-65 hover:scale-105 hover:opacity-75 transition"
+                  className="object-cover rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
                 ></Image>
               </div>
-              <div className="absolute bottom-3">
-                <div className="my-2 text-sm text-cyan-200 pl-8">
+              <div className=" absolute sm:bottom-3 -bottom-16">
+                <div className=" sm:block my-2 text-xs sm:text-sm text-cyan-200 sm:pl-8">
                   {project.technologies &&
                     project.technologies.map((tech, i) => (
                       <li
                         key={i}
-                        className="inline-block mr-2 bg-foreground rounded-lg shadow-lg p-2"
+                        className="inline-block mr-2 bg-foreground rounded-md sm:rounded-lg shadow-lg p-1 sm:p-2"
                       >
                         {tech}
                       </li>
                     ))}
                 </div>
-                <div className="flex gap-4 text-2xl pl-8">
+                <div className="flex gap-4 text-2xl sm:pl-8">
                   <Link
                     href={project.link}
                     target="_blank"

@@ -6,7 +6,7 @@ import { Profile } from "./profile";
 export const Nav = () => {
   return (
     <div className="bg-[#00091d] sticky top-0 z-50 shadow-md  opacity-85">
-      <div className="w-3/4 mx-auto flex items-center justify-between">
+      <div className="w-full px-8 sm:px-0 sm:w-3/4 mx-auto  flex items-center justify-between">
         <div>
           <Link href="/">
             <Profile />

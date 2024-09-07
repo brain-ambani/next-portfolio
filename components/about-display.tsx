@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutDisplay = () => {
   return (
-    <div className="ml-4 ">
+    <div className="sm:ml-4">
       <div className="relative  ">
         <Image
           src="/assets/profile.png"
