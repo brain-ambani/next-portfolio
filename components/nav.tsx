@@ -14,16 +14,16 @@ export const Nav = () => {
         </div>
         <div className="flex gap-4 py-4">
           <Link href="https://github.com/brain-ambani/" target="_blank">
-            <FaGithub className=" text-3xl" />
+            <FaGithub className=" text-2xl hover:opacity-75 transition" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/brain-ambani/"
             target="_blank"
           >
-            <FaLinkedin className="text-blue-500 text-3xl" />
+            <FaLinkedin className="text-blue-500 text-2xl hover:opacity-75 transition" />
           </Link>
           <Link href="/" target="_blank">
-            <BsTwitterX className=" text-3xl" />
+            <BsTwitterX className=" text-2xl hover:opacity-75 transition" />
           </Link>
         </div>
       </div>
