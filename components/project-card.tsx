@@ -22,7 +22,7 @@ export const ProjectCard = () => {
                 </p>
 
                 <Image
-                  src="/assets/scriptify.png"
+                  src={project.image}
                   width={550}
                   height={200}
                   alt="project img"
