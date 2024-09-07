@@ -64,7 +64,7 @@ export const projects = [
     index: "02",
     title: "BlogAI",
     description:
-      "BlogAI is an innovative AI-driven content creation tool designed to assist bloggers and businesses in producing high-quality, SEO-optimized articles. By analyzing user input and target audience preferences, BlogAI generates engaging, relevant content tailored to meet specific objectives. Its intelligent algorithms make it easier to maintain a consistent blogging schedule while ensuring that each post resonates with readers.",
+      "BlogAI is an innovative AI-driven content creation tool designed to assist bloggers and businesses in producing high-quality, SEO-optimized articles. By analyzing user input and target audience preferences, BlogAI generates engaging, relevant content tailored to meet specific objectives.",
     image: "/assets/blogai.png",
     link: "https://blog-app-67ff.vercel.app/",
     repo: "https://github.com/brain-ambani/blog-app",
