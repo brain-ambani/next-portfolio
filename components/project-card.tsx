@@ -63,6 +63,7 @@ export const ProjectCard = () => {
                     height={200}
                     alt={project.title}
                     className="object-cover w-[550px] h-[250px] rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
+                    unoptimized
                   />
                 </div>
               </div>
