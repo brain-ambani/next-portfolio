@@ -16,9 +16,9 @@ export const ProjectCard = () => {
             </li>
 
             <div className="relative ">
-              <div className="relative flex items-center bg-[#0A122A] sm:justify-end sm:p-8 rounded-md">
+              <div className="relative flex items-center bg-[#0A122A] sm:justify-end sm:p-8 sm:pb-8 rounded-md">
                 <div>
-                  <p className=" absolute z-10 left-8 text-sm  sm:top-1/2 sm:transform sm:-translate-y-1/2 sm:w-[50%]  sm:bg-[#00091d] p-2 rounded-md shadow-inner  ">
+                  <p className=" absolute z-10 left-2 sm:left-8 text-[13px] 2xl:text-lg sm:leading-5 top-0 sm:top-1/2 sm:transform sm:-translate-y-1/2 sm:w-[50%]  sm:bg-[#00091d] p-2 rounded-md shadow-inner  ">
                     {project.description}
                   </p>
                 </div>
