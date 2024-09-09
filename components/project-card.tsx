@@ -1,41 +1,8 @@
-// import { projects } from "@/lib/data";
+import { projects } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineLink } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
-
-const projects = [
-  {
-    index: "01",
-    title: "Scriptify",
-    description:
-      "Scriptify is an innovative web app that allows users to interact with PDF documents in a conversational way. Through an AI-powered chat interface, users can ask questions, search for content, and extract information from PDFs seamlessly, enhancing productivity and accessibility.",
-    image: "/assets/scriptify.png",
-    link: "https://scriptify-one.vercel.app/",
-    repo: "https://github.com/brain-ambani/scriptify",
-    technologies: ["Next.js", "OpenAI API", "Clerk", "PostgreSQL"],
-  },
-  {
-    index: "02",
-    title: "BlogAI",
-    description:
-      "BlogAI is an innovative AI-driven content creation tool designed to assist bloggers and businesses in producing high-quality, SEO-optimized articles. By analyzing user input and target audience preferences, BlogAI generates engaging, relevant content tailored to meet specific objectives.",
-    image: "/assets/blogai.png",
-    link: "https://blog-app-67ff.vercel.app/",
-    repo: "https://github.com/brain-ambani/blog-app",
-    technologies: ["React.js", "Expressjs", "OpenAI API"],
-  },
-  {
-    index: "03",
-    title: "Workout Buddy",
-    description:
-      "Workout Buddy is a comprehensive fitness web app designed to help users achieve their health and fitness goals. Set fitness goals, monitor progress and stay motivated with custom workout routines. The app provides an intuitive interface and seamless experience for users looking to enhance their fitness journey.",
-    image: "/assets/fitness.png",
-    link: "https://fitness-app-lac.vercel.app/",
-    repo: "https://github.com/brain-ambani/fitness-app",
-    technologies: ["Next.js", "MongoDB", "Expressjs"],
-  },
-];
 
 export const ProjectCard = () => {
   return (
@@ -58,12 +25,11 @@ export const ProjectCard = () => {
 
                 <div>
                   <Image
-                    src={project.image}
+                    src="/assets/scriptify.png"
                     width={550}
                     height={200}
                     alt={project.title}
                     className="object-cover w-[550px] h-[250px] rounded-md sm:opacity-65 hover:scale-105 hover:opacity-75 transition opacity-20"
-                    unoptimized
                   />
                 </div>
               </div>
