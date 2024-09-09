@@ -25,7 +25,7 @@ export const ProjectCard = () => {
 
                 <div>
                   <Image
-                    src={project.image}
+                    src="/assets/profile.png"
                     width={550}
                     height={200}
                     alt={project.title}
