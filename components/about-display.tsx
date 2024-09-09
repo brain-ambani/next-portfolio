@@ -5,7 +5,7 @@ export const AboutDisplay = () => {
     <div className="sm:ml-4">
       <div className="relative  ">
         <Image
-          src="/assets/scriptify.png"
+          src="/assets/profile.png"
           width={350}
           height={350}
           alt="about"
