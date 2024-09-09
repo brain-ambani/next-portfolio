@@ -55,7 +55,7 @@ export const projects = [
     title: "Scriptify",
     description:
       "Scriptify is an innovative web app that allows users to interact with PDF documents in a conversational way. Through an AI-powered chat interface, users can ask questions, search for content, and extract information from PDFs seamlessly, enhancing productivity and accessibility.",
-    image: "/assets/scriptify.png",
+    image: "/assets/scriptify.jpg",
     link: "https://scriptify-one.vercel.app/",
     repo: "https://github.com/brain-ambani/scriptify",
     technologies: ["Next.js", "OpenAI API", "Clerk", "PostgreSQL"],
@@ -65,7 +65,7 @@ export const projects = [
     title: "BlogAI",
     description:
       "BlogAI is an innovative AI-driven content creation tool designed to assist bloggers and businesses in producing high-quality, SEO-optimized articles. By analyzing user input and target audience preferences, BlogAI generates engaging, relevant content tailored to meet specific objectives.",
-    image: "/assets/blogai.png",
+    image: "/assets/blogai.jpg",
     link: "https://blog-app-67ff.vercel.app/",
     repo: "https://github.com/brain-ambani/blog-app",
     technologies: ["React.js", "Expressjs", "OpenAI API"],
@@ -75,7 +75,7 @@ export const projects = [
     title: "Workout Buddy",
     description:
       "Workout Buddy is a comprehensive fitness web app designed to help users achieve their health and fitness goals. Set fitness goals, monitor progress and stay motivated with custom workout routines. The app provides an intuitive interface and seamless experience for users looking to enhance their fitness journey.",
-    image: "/assets/fitness.png",
+    image: "/assets/fitness.jpg",
     link: "https://fitness-app-lac.vercel.app/",
     repo: "https://github.com/brain-ambani/fitness-app",
     technologies: ["Next.js", "MongoDB", "Expressjs"],
