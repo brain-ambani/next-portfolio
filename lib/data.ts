@@ -37,7 +37,7 @@ export const data = [
   },
   {
     id: 10,
-    name: "Docker",
+    name: "GraphQL",
   },
   {
     id: 11,
