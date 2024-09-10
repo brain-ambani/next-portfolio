@@ -1,3 +1,5 @@
+import { Socials } from "./socials";
+
 export const Hero = () => {
   return (
     <div className="w-full px-8 sm:px-0 sm:w-3/4 mx-auto  pt-16 h-full flex flex-col">
@@ -14,6 +16,9 @@ export const Hero = () => {
           expertise lies in creating seamless user experiences with cutting-edge
           front-end technologies while ensuring efficient back-end processes.
         </p>
+        <div className="flex ">
+          <Socials />
+        </div>
       </div>
     </div>
   );
